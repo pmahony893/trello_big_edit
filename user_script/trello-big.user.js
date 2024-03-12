@@ -11,17 +11,20 @@ cssString = ' '+
 	'	left:0px !important; ' +
 	'	top:0px !important; ' +
 	'	width:100% !important; '+
+	'	margin-left: 24px; '+
+	'	margin-right: 24px; '+
 	'} '+
 	' '+
 	'.window-main-col '+
 	'{ '+
-	'	width:80% !important; '+
+	'	width:calc(100% - 348px) !important; '+
 	'} '+
 	'.window-wrapper{ '+
 	'	height: 100%; '+
-	'} ';
-
-
+	'}' +
+	'.window-sidebar{ '+
+	'	width: 300px; '+
+	'}';
 
 insertCSS(cssString);
 // Function to insert CSS
